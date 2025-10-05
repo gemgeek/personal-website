@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GEM's Portfolio Website
 
-## Getting Started
+Welcome to the source code for my personal portfolio, a fully responsive single-page application built with Next.js and Tailwind CSS. This project showcases my skills in full-stack development, design, and animation.
 
-First, run the development server:
+**🚀 Live Site:** [https://gems-portfolio.vercel.app](https://gems-portfolio.vercel.app) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
+## ✨ Features
+
+- **Fully Responsive Design:** Adapts seamlessly to mobile, tablet, and desktop screens.
+- **Animated Background:** A subtle, moving starfield effect on all pages using `react-tsparticles`.
+- **Smooth Animations:** Built with `Framer Motion` for page transitions, scroll-reveal effects, and interactive UI elements.
+- **Reusable Components:** Modular components for each section (Hero, Projects, Expertise, etc.).
+- **Functional Contact Form:** An API route built with Next.js and integrated with the Resend service to send emails directly to my inbox.
+- **Multi-Page App:** Separate, styled pages for Projects, About, and Contact, using the Next.js App Router.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **Particle Effects:** `react-tsparticles`
+- **Email API:** Resend
+- **Icons:** `react-icons`
+- **Deployment:** Vercel
+
+## ⚙️ Running Locally
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/your-username/personal-website.git](https://github.com/your-username/personal-website.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd personal-website
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Run the development server:
+    ```bash
+    npm run dev
+    ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
