@@ -3,8 +3,7 @@ import WhyHireMe from './components/WhyHireMe';
 import FeaturedProjects from './components/FeaturedProjects';
 import Expertise from './components/Expertise';
 import Stats from './components/Stats';
-import CallToAction from './components/CallToAction'; 
-import Footer from './components/Footer'; 
+import CallToAction from './components/CallToAction';  
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Stats />
       <CallToAction />
     </main>
-    <Footer />
   </>
   );
 }

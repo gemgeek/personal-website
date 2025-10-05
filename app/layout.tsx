@@ -1,6 +1,7 @@
 import './globals.css'
 import Navbar from './components/Navbar';
 import AnimatedBackground from './components/AnimatedBackground';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'My Personal Website',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <AnimatedBackground />
         <Navbar /> 
         {children}
+        <Footer />
       </body>
     </html>
   )

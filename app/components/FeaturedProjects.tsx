@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import { FaCircle, FaWrench, FaPalette } from 'react-icons/fa';
@@ -125,9 +126,9 @@ const FeaturedProjects = () => {
         </div>
         
         <div className="mt-16">
-          <a href="#" className="text-pink-500 font-semibold text-lg hover:underline">
-            View All Projects →
-          </a>
+          <Link href="/projects" className="text-pink-500 font-semibold text-lg hover:underline">
+           View All Projects →
+        </Link>
         </div>
       </div>
     </motion.section>

@@ -25,7 +25,7 @@ const WhyHireMe = () => {
   return (
     <motion.section 
       id="about" 
-      className="bg-[#0d1117] py-20 px-4" 
+      className="py-20 px-4" 
     >
       <div className="container mx-auto text-center">
         <h2 className="text-5xl font-bold mb-4">
