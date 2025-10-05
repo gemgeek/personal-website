@@ -35,7 +35,7 @@ const Hero = () => {
         >
           <p className="text-green-400 mb-2">● Open to new opportunities</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-100">
-            Hi, I'm Matilda Esenam Gbeve
+            Hi, I&apos;m Matilda Esenam Gbeve
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold my-4 bg-gradient-to-r from-pink-500 to-violet-500 text-transparent bg-clip-text">
             Exploring Innovation, Design & Web Dev
