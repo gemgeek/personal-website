@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom section with copyright */}
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
+        <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
           <p>© 2025 GEM (Matilda Esenam Gbeve). All rights reserved.</p>
         </div>
       </div>

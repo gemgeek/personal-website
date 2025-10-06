@@ -4,7 +4,7 @@ import AnimatedBackground from './components/AnimatedBackground';
 import Footer from './components/Footer';
 
 export const metadata = {
-  title: 'My Personal Website',
+  title: 'Matilda Esenam Gbeve',
   description: 'Built with Next.js and Tailwind CSS',
 }
 

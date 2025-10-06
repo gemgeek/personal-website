@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 
 const featuredProjects = [
   {
-    title: "HandyHub",
-    subtitle: "Full-Stack Application",
-    image: "/assets/project-handyhub.jpeg",
-    tags: ["React", "Django", "REST API"],
-    liveLink: null,
-    githubLink: "https://github.com/gemgeek/HandyHub-Frontend",
+    title: "Personal Website",
+    subtitle: "My Portfolio Site",
+    image: "/assets/screenshot.png", 
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Resend"],
+    liveLink: "https://www.gemgeek.online/", 
+    githubLink: "https://github.com/gemgeek/personal-website",
   },
   {
     title: "AI-Powered ChatBot",

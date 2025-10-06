@@ -30,7 +30,7 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-300 z-10"></div>
+        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-300 z-10"></div>
       </div>
 
       <div className="p-6 flex flex-col flex-grow">

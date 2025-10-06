@@ -2,7 +2,10 @@
 
 Welcome to the source code for my personal portfolio, a fully responsive single-page application built with Next.js and Tailwind CSS. This project showcases my skills in full-stack development, design, and animation.
 
-**🚀 Live Site:** [https://gems-portfolio.vercel.app](https://gems-portfolio.vercel.app) 
+**🚀 Live Site:** [https://www.gemgeek.online/](https://www.gemgeek.online/)
+
+
+![Screenshot](public/assets/screenshot.png)
 
 
 ## ✨ Features
