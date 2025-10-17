@@ -10,7 +10,7 @@ const ContactSidebar = () => {
       <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
         <h3 className="text-xl font-bold text-white mb-4">Professional Profiles</h3>
         <div className="flex items-center gap-4 mb-4">
-          <Image src="/assets/profile-pic.jpg" alt="Matilda Gbeve" width={50} height={50} className="rounded-full" />
+          <Image src="/assets/profile-pic.png" alt="Matilda Gbeve" width={50} height={50} className="rounded-full" />
           <div>
             <p className="font-bold text-white">Gbeve Esenam Matilda (GEM)</p>
             <p className="text-sm text-gray-400">Full-Stack Developer & Creative Designer</p>

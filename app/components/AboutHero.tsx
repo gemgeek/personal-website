@@ -35,7 +35,7 @@ const AboutHero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <Image
-            src="/assets/profile-pic.jpg"
+            src="/assets/profile-pic.png"
             alt="Matilda Esenam Gbeve"
             fill
             className="object-cover"
