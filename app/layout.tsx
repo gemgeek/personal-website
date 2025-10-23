@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 export const metadata = {
   title: 'Matilda Esenam Gbeve',
-  description: 'Built with Next.js and Tailwind CSS',
+  description: 'My Personal Portfolio Website',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
