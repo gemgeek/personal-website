@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin, FaTwitter, FaTiktok } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-violet-900/30 to-transparent pt-20 pb-8 px-4">
-      suppressHydrationWarning
       <div className="container mx-auto">
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mb-12">
