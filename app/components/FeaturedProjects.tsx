@@ -8,31 +8,31 @@ import { FaCircle, FaWrench, FaPalette } from 'react-icons/fa';
 
 const projectsData = [
   {
-    title: "HandyHub Artisan Marketplace",
-    description: "A web platform connecting users with verified local artisans. Built with a modern tech stack to provide a clean and intuitive user experience.",
-    image: "/assets/project-handyhub.jpeg", 
-    tags: ["React", "Django", "Python", "JavaScript", "REST API"],
-    liveLink: null, 
-    githubLink: "https://github.com/gemgeek/HandyHub-Frontend",
-    status: "Yet to Deploy", 
-  },
-  {
-    title: "GEM's AI Portfolio Chatbot",
-    description: "An interactive and engaging AI-powered portfolio where users can have a conversation with an AI assistant powered by Google's Gemini model.",
-    image: "/assets/project-ai-portfolio.png", 
-    tags: ["React", "Flask", "Tailwind CSS", "Gemini AI", "Python"],
-    liveLink: "https://gems-ai-portfolio.vercel.app/",
-    githubLink: "https://github.com/gemgeek/Gems-AI-Portfolio",
+    title: "GEM Kids",
+    description: "A Microsoft Encarta-inspired PWA for kids. Features offline functionality and a nostalgic educational interface. Designed for desktop engagement.",
+    image: "/assets/gem-kids.png", 
+    tags: ["TypeScript", "React", "Tailwind", "PWA", "Offline Mode"],
+    liveLink: "https://www.gemkids2026.site", 
+    githubLink: null, 
     status: "Live", 
   },
   {
-    title: "Skincare Brand Identity",
-    description: "A complete brand identity design for a new skincare line, including logo, color palette, typography, and packaging concepts created using Canva.",
-    image: "/assets/project-skincare.jpg", 
-    tags: ["Branding", "UI/UX", "Canva", "Graphic Design"],
-    liveLink: "https://www.yogem.art/",
+    title: "GemOS (Internal OS)",
+    description: "Custom business management system powered by Gemini 2.5. Features real-time tracking, automated weekly reporting, and a dynamic history vault.",
+    image: "/assets/gem-os.png", 
+    tags: ["TypeScript", "Supabase", "Gemini 2.5", "Auth", "Real-time"],
+    liveLink: "https://gem-os.vercel.app",
     githubLink: null,
-    status: "Brand Identity", 
+    status: "Live", 
+  },
+  {
+    title: "SkinGold Beauty E-commerce",
+    description: "Full-stack e-commerce experience featuring Sanity CMS, Paystack integration, and automated SMS/Email purchase confirmations.",
+    image: "/assets/skin-gold.png", 
+    tags: ["Next.js", "Sanity", "Paystack", "Arkesel SMS", "Resend"],
+    liveLink: "https://www.skingoldbeauty.com",
+    githubLink: null,
+    status: "Live", 
   }
 ];
 
@@ -70,9 +70,12 @@ const FeaturedProjects = () => {
             Projects
           </span>
         </h2>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-          A selection of my work that demonstrates my skills in software engineering and design, from concept to deployment.
-        </p>
+        <p 
+         className="text-gray-400 max-w-2xl mx-auto mb-12"
+         suppressHydrationWarning 
+        >
+        Showcasing my journey from design to full-stack engineering with high-impact, real-world applications.
+       </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
@@ -127,8 +130,8 @@ const FeaturedProjects = () => {
         
         <div className="mt-16">
           <Link href="/projects" className="text-pink-500 font-semibold text-lg hover:underline">
-           View All Projects →
-        </Link>
+            View All Projects →
+          </Link>
         </div>
       </div>
     </motion.section>

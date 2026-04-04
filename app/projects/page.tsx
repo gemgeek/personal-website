@@ -5,12 +5,36 @@ import { motion } from 'framer-motion';
 
 const featuredProjects = [
   {
+    title: "GEM Kids",
+    subtitle: "Encarta-inspired PWA",
+    image: "/assets/gem-kids.png",
+    tags: ["TypeScript", "React", "Tailwind", "PWA", "Offline Mode"],
+    liveLink: "https://www.gemkids2026.site",
+    githubLink: null,
+  },
+  {
+    title: "SkinGold Beauty",
+    subtitle: "Full-Stack E-commerce",
+    image: "/assets/skin-gold.png",
+    tags: ["Next.js", "Sanity", "Paystack", "Arkesel SMS", "Resend"],
+    liveLink: "https://www.skingoldbeauty.com",
+    githubLink: null,
+  },
+  {
     title: "Personal Website",
     subtitle: "My Portfolio Site",
     image: "/assets/screenshot.png", 
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Resend"],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     liveLink: "https://www.gemgeek.online/", 
     githubLink: "https://github.com/gemgeek/personal-website",
+  },
+  {
+    title: "GemOS (Internal OS)",
+    subtitle: "AI-Powered Business Management",
+    image: "/assets/gem-os.png",
+    tags: ["TypeScript", "Supabase", "Gemini 2.5", "Auth", "Real-time"],
+    liveLink: "https://gem-os.vercel.app",
+    githubLink: null,
   },
   {
     title: "AI-Powered ChatBot",
@@ -36,15 +60,15 @@ const brandDesigns = [
     subtitle: "Brand Identity",
     image: "/assets/project-skincare.jpg",
     tags: ["Branding", "Canva", "Logo Design"],
-    liveLink: "https://www.yogem.art/",
+    liveLink: null, 
     githubLink: null,
   },
   {
-    title: "Kobbe Mensah Fitness",
-    subtitle: "Brand Identity",
-    image: "/assets/project-fitness.jpg", 
-    tags: ["Branding", "Social Media", "Logo"],
-    liveLink: "https://www.yogem.art/",
+    title: "Butrous Services",
+    subtitle: "Health & Wellness Identity",
+    image: "/assets/but.png",
+    tags: ["Branding", "Identity Design", "Web Design"],
+    liveLink: "https://www.butrousservices.com", 
     githubLink: null,
   },
   {
@@ -52,7 +76,7 @@ const brandDesigns = [
     subtitle: "Brand Identity",
     image: "/assets/project-fintech.png", 
     tags: ["Branding", "Corporate", "Logo"],
-    liveLink: "https://www.yogem.art/",
+    liveLink: null, 
     githubLink: null,
   },
 ];
@@ -68,8 +92,8 @@ const ProjectsPage = () => {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-5xl md:text-6xl font-bold mb-4">My Projects</h1>
-        <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-          A curated showcase of innovative solutions, from full-stack applications to bold brand identities. Each project reflects creativity, problem-solving, and a commitment to high-quality results.
+        <p className="text-lg text-gray-400 max-w-3xl mx-auto" suppressHydrationWarning>
+          A curated showcase of innovative solutions, from Gemini-powered operating systems to bold brand identities. Each project reflects creativity, problem-solving, and a commitment to high-quality results.
         </p>
         <div className="mt-6 flex justify-center gap-4">
           <span className="border border-gray-600 px-4 py-2 rounded-full text-sm">Full-Stack</span>
@@ -80,7 +104,7 @@ const ProjectsPage = () => {
 
       {/* Featured Projects Section */}
       <div className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center md:text-left">Featured Projects</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center md:text-left">Featured Engineering Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredProjects.map((proj, index) => <ProjectCard key={index} project={proj} />)}
         </div>
