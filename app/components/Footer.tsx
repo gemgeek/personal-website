@@ -7,13 +7,12 @@ const Footer = () => {
       <div className="container mx-auto">
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mb-12">
-          {/* Column 1: Identity */}
           <div className="md:col-span-1">
             <h3 className="text-2xl font-bold text-white mb-2">GEM</h3>
             <p className="text-gray-400">Full-Stack Developer</p>
           </div>
 
-          {/* Column 2: Quick Links */}
+          {/* Quick Links */}
           <div>
             <h4 className="font-bold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -23,7 +22,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 3: Connect */}
+          {/* Connect */}
           <div>
             <h4 className="font-bold text-white mb-4">Connect</h4>
             <div className="flex justify-center md:justify-start gap-6">
