@@ -107,7 +107,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a 
-                  href="/assets/Matilda-Esenam-Gbeve.pdf" 
+                  href="/assets/CV-GEM.pdf" 
                   className="mt-4 mb-8 inline-block bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-md transition-colors"
                 >
                   Resume →
